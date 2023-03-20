@@ -272,6 +272,23 @@ input[id=cb1] {
     max-width: 79%;
 }
 
+.page-item .page-link {
+    width: 100%;
+    height: 100%;
+    color: #000;
+}
+
+.page-item {
+    width: 32px;
+    height: 32px;
+}
+
+.page-item.active .page-link {
+    background: white !important;
+    color: #F6B93B !important;
+    border: 1px solid #F6B93B !important;
+}
+
 @media (max-width:350px) and (min-width:50px) {
     .dash_nav {
         overflow-y: scroll;
