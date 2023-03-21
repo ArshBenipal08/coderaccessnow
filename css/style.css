@@ -411,10 +411,11 @@ p {
     height: 900px;
     background-repeat: no-repeat;
     background-position-x: right;
+    /* background-size: c; */
 }
 
 .box {
-    margin-top: 350px;
+    margin-top: 212px;
 }
 
 @media (max-width:350px) and (min-width:50px) {
@@ -698,6 +699,14 @@ p {
     .store .pc {
         width: 260px !important;
     }
+    .error {
+        background-size: contain;
+    }
+    .box {
+        width: 40%;
+        margin-top: 50px;
+        margin-left: -100px;
+    }
 }
 
 
@@ -716,6 +725,14 @@ p {
     }
     .store .pc {
         width: 260px !important;
+    }
+    .error {
+        background-size: contain;
+    }
+    .box {
+        width: 40%;
+        margin-top: 50px;
+        margin-left: -100px;
     }
 }
 
@@ -736,6 +753,14 @@ p {
     .store .pc {
         width: 260px !important;
     }
+    .error {
+        background-size: contain;
+    }
+    .box {
+        width: 40%;
+        margin-top: 50px;
+        margin-left: -100px;
+    }
 }
 
 
@@ -754,6 +779,14 @@ p {
     }
     .store .pc {
         width: 260px !important;
+    }
+    .error {
+        background-size: contain;
+    }
+    .box {
+        width: 40%;
+        margin-top: 80px;
+        margin-left: -100px;
     }
 }
 
@@ -774,6 +807,14 @@ p {
     .store .pc {
         width: 290px !important;
     }
+    .error {
+        background-size: contain;
+    }
+    .box {
+        width: 40%;
+        margin-top: 100px;
+        margin-left: -140px;
+    }
 }
 
 
@@ -790,6 +831,12 @@ p {
     .store .c2 {
         max-width: 95%;
     }
+    .error {
+        background-size: contain;
+    }
+    .box {
+        margin-top: 140px;
+    }
 }
 
 
@@ -802,6 +849,12 @@ p {
     }
     .store .c2 {
         max-width: 85%;
+    }
+    .error {
+        background-size: contain;
+    }
+    .box {
+        margin-top: 185px;
     }
 }
 
