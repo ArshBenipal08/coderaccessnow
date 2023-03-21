@@ -407,10 +407,29 @@ p {
     max-width: 75%;
 }
 
+.error {
+    height: 900px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+.box {
+    margin-top: 350px;
+}
+
 @media (max-width:350px) and (min-width:50px) {
     .dash_nav {
         overflow-y: scroll;
         background-color: #fff
+    }
+    .error {
+        height: auto;
+        background: none !important;
+        background-repeat: no-repeat;
+        background-position-x: right;
+    }
+    .box {
+        margin-top: 0px;
     }
     .aa {
         width: 336px !important;
@@ -490,6 +509,15 @@ p {
         overflow-y: scroll;
         background-color: #fff
     }
+    .error {
+        height: auto;
+        background: none !important;
+        background-repeat: no-repeat;
+        background-position-x: right;
+    }
+    .box {
+        margin-top: 0px;
+    }
     .aa {
         width: 336px !important;
     }
@@ -567,6 +595,15 @@ p {
     .dash_nav {
         overflow-y: scroll;
         background-color: #fff
+    }
+    .error {
+        height: auto;
+        background: none !important;
+        background-repeat: no-repeat;
+        background-position-x: right;
+    }
+    .box {
+        margin-top: 0px;
     }
     .aa {
         width: 336px !important;
