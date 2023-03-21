@@ -28,6 +28,20 @@ body {
 .bord1 {
     border-bottom: 3px solid #F6B93B;
 }
+.bord3{
+    border: 3px solid #F6B93B;
+
+}
+.bord4{
+    border: 3px solid #0E0E0E;
+
+}
+.bord2{
+    background: #FFFFFF;
+
+border: 4px solid #F6B93B;
+box-shadow: -4px 4px 0px #FFBA00;
+}
 
 .primary_clr {
     color: #F6B93B !important;
@@ -193,7 +207,12 @@ input[id=cb1] {
 .dash .content {
     margin-top: 0
 }
-
+.btn2{
+    background: #0E0E0E;
+    border: 3px solid #0E0E0E;
+    box-shadow: 4px 4px 0px #F6B93B;
+   color: #F6B93B;
+}
 .dropdown .btn {
     background-color: #fff !important;
     border-radius: 13px;
@@ -290,7 +309,9 @@ input[id=cb1] {
 .footer_box {
     max-width: 79%;
 }
-
+.yellowtext{
+    color:#F6B93B;
+}
 .page-item .page-link {
     width: 100%;
     height: 100%;
