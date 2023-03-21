@@ -126,7 +126,7 @@
             <div class="content container d-none d-lg-block">
                 <div class="row justify-content-between position-relative  py-5 ">
                     <div class="text-center text-black yellowBorder p-5">
-                        <h1 class="fs64 fw-bolder fsm29 mb-4  text-capitalize">
+                        <h1 class="fs64 fw-bolder fsm29 mb-4 text-capitalize">
                             Shop your next steps </h1>
                         <p class="fs16 fsm15 col-lg-8 col-12 mx-auto">
                             We feature a wide range of high-quality digital resources designed to help learners improve
@@ -154,7 +154,6 @@
                     courses, regardless of your level of expertise or learning.
                 </p>
             </div>
-
         </section>
         <div class="">
             <div class="container c2">
@@ -174,14 +173,14 @@
                     </div>
 
                     <div class="d-flex justify-content-between gap-3 flex-wrap ">
-                        <div class="order-0" style="width: 336px;">
-                            <button class="w-100  border-0 btn filter  btn-secondary dropdown-toggle text-start"
+                        <div class="order-0" style="width: 336px; ">
+                            <button class="w-100  border-0 btn filter fil btn-secondary dropdown-toggle text-start"
                                 type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                                 <span class=""> Filters</span>
                                 <i class="fa fa-filter"></i>
                             </button>
                         </div>
-                        <div class="applyB aa order-2 order-lg-1" style="width: 250px; ">
+                        <div class="applyB aa order-2 order-lg-1" style="width: 250px; display: none;">
                             <button
                                 class="w-100  border-0 btn filter text-black justify-content-center btn-secondary dropdown-toggle text-start"
                                 type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
@@ -189,7 +188,7 @@
 
                             </button>
                         </div>
-                        <div class="cancelB aa order-1 order-lg-2" style="width: 250px; ">
+                        <div class="cancelB aa order-1 order-lg-2" style="width: 250px; display: none;">
                             <button
                                 class="w-100  border-0 btn filter bg-white text-black justify-content-center btn-secondary dropdown-toggle text-start"
                                 style="border: 2px solid #000 !important" type="button" id="dropdownMenuButton1"
@@ -201,7 +200,7 @@
                     </div>
                 </div>
 
-                <div class="row allFilters mt-5 justify-content-center gap-0 px-lg-0 px-3" style="">
+                <div class="row allFilters mt-5 justify-content-center gap-0 px-lg-0 px-3" style="display: none;">
                     <div class="col-lg-6 px-0" style="border:1px solid #F6B93B;">
                         <h2 class="fs21 p_back p-3">Product type</h2>
                         <div class="row pb-4">
@@ -724,10 +723,10 @@
 
             $(document).ready(function () {
 
-                $('.filters').click(function () {
+                $('.fil').click(function () {
 
-                    $('.apply').toggle();
-                    $('.cancel').toggle();
+                    $('.applyB').toggle();
+                    $('.cancelB').toggle();
                     $('.allFilters').toggle();
 
                 })
