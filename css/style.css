@@ -15,6 +15,10 @@ body {
     background-repeat: no-repeat;
 }
 
+.dash.logii {
+    background-image: url('../media/background/login_header.png') !important;
+}
+
 .card {
     background-color: #F4F4F4 !important;
 }
@@ -35,6 +39,10 @@ body {
     background-position-x: center;
     /* background-position-y: 60px; */
     background-repeat: no-repeat;
+}
+
+.dash.order {
+    background-image: url(../media/background/order_heade.png) !important;
 }
 
 .about {
@@ -147,7 +155,8 @@ body {
 
 .back.order_b::after {
     background-image: url(../media/background/order_h.png);
-    background-position-y: -10px;
+    background-position-y: 0px;
+    /* z-index: 55; */
 }
 
 .inp {
@@ -547,7 +556,7 @@ p {
     background-image: url(../media/background/contact_1.png);
     background-position-x: center;
     background-repeat: no-repeat;
-    background-position-y: -100px;
+    background-position-y: -23px;
 }
 
 .nav_cart {
@@ -589,6 +598,28 @@ p {
     padding: 1.5rem 2rem;
     border: 1px solid #000;
     border-radius: 5px;
+    transform: translate3d(-4px, -4px, 0);
+    transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1);
+}
+
+.btn_pan1 {
+    background: #F6B93B;
+    font-weight: 700;
+    padding: 0;
+    border-radius: 5px;
+}
+
+.btn_pan1:hover span {
+    transform: translate3d(-8px, -8px, 0);
+}
+
+.btn_pan1 span {
+    display: block;
+    background: #000;
+    padding: 1.5rem 2rem;
+    border: 1px solid #F6B93B;
+    border-radius: 5px;
+    color: #FFBA00;
     transform: translate3d(-4px, -4px, 0);
     transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1);
 }
@@ -651,7 +682,8 @@ footer p {
 .pro {
     background-position-y: 80px !important;
     background-position-x: right;
-    background-size: 100% auto !important;
+    /* background-size: 100% auto !important; */
+    background-size: 1920px auto !important;
 }
 
 .lob {
@@ -672,10 +704,52 @@ footer {
     height: 790px;
 }
 
+.card_main {
+    height: 468px !important;
+}
+
+.myhead {
+    margin-top: -35px !important;
+}
+
+.homeBack.homb2ww .c1 {
+    height: 751px;
+}
+
+.oneOne.homeBack2 .c1 {
+    margin-top: 50px !important;
+}
+
+.oneOne.homeBack2 .box2 {
+    margin-top: 73px !important;
+}
+
+.ab2w.homeBack2 .c1 {
+    height: 700px;
+}
+
 @media (max-width:350px) and (min-width:50px) {
     .dash_nav {
         overflow-y: scroll;
         background-color: #fff
+    }
+    .abMob {
+        background-image: url(../media/background/about_last_m.png) !important;
+    }
+    .btnM {
+        width: 100% !important;
+    }
+    .last_m {
+        background-image: url(../media/background/pay_last_m.png) !important;
+    }
+    .card_main {
+        height: auto !important;
+    }
+    .ce1 {
+        width: 35px !important;
+    }
+    .fsm36 {
+        font-size: 36px;
     }
     .bord22m {
         background: #FFFFFF;
@@ -712,9 +786,9 @@ footer {
         height: auto !important;
     }
     .floating {
-        right: -13px !important;
-        width: 146% !important;
-        top: 36px !important;
+        right: -37px !important;
+        width: 158% !important;
+        top: 25px !important;
     }
     .bordM {
         box-shadow: none !important;
@@ -792,9 +866,9 @@ footer {
         position: absolute;
         right: -10px;
         width: 50%;
-        height: 97%;
+        height: 96.5%;
         z-index: 99;
-        top: 16px;
+        top: 18px;
     }
     .dropdown-menu.p_back.show {
         margin-left: -28px !important;
@@ -823,6 +897,16 @@ footer {
     }
     .home .container {
         max-width: 100%;
+    }
+    element.style {
+        justify-self: end;
+        margin-left: auto;
+    }
+    .gap-2 {
+        gap: 0.5rem!important;
+    }
+    .navbar-nav {
+        margin-bottom: -6px !important;
     }
     .navbar-brand img {
         width: 56.98px !important;
@@ -896,6 +980,24 @@ footer {
         overflow-y: scroll;
         background-color: #fff
     }
+    .abMob {
+        background-image: url(../media/background/about_last_m.png) !important;
+    }
+    .btnM {
+        width: 100% !important;
+    }
+    .last_m {
+        background-image: url(../media/background/pay_last_m.png) !important;
+    }
+    .card_main {
+        height: auto !important;
+    }
+    .ce1 {
+        width: 35px !important;
+    }
+    .fsm36 {
+        font-size: 36px;
+    }
     .bord22m {
         background: #FFFFFF;
         border: 4px solid #0E0E0E;
@@ -931,9 +1033,9 @@ footer {
         height: auto !important;
     }
     .floating {
-        right: -13px !important;
-        width: 146% !important;
-        top: 36px !important;
+        right: -37px !important;
+        width: 158% !important;
+        top: 25px !important;
     }
     .bordM {
         box-shadow: none !important;
@@ -1011,9 +1113,9 @@ footer {
         position: absolute;
         right: -10px;
         width: 50%;
-        height: 97%;
+        height: 96.5%;
         z-index: 99;
-        top: 16px;
+        top: 18px;
     }
     .dropdown-menu.p_back.show {
         margin-left: -28px !important;
@@ -1042,6 +1144,16 @@ footer {
     }
     .home .container {
         max-width: 100%;
+    }
+    element.style {
+        justify-self: end;
+        margin-left: auto;
+    }
+    .gap-2 {
+        gap: 0.5rem!important;
+    }
+    .navbar-nav {
+        margin-bottom: -6px !important;
     }
     .navbar-brand img {
         width: 56.98px !important;
@@ -1115,6 +1227,24 @@ footer {
         overflow-y: scroll;
         background-color: #fff
     }
+    .abMob {
+        background-image: url(../media/background/about_last_m.png) !important;
+    }
+    .btnM {
+        width: 100% !important;
+    }
+    .last_m {
+        background-image: url(../media/background/pay_last_m.png) !important;
+    }
+    .card_main {
+        height: auto !important;
+    }
+    .ce1 {
+        width: 35px !important;
+    }
+    .fsm36 {
+        font-size: 36px;
+    }
     .bord22m {
         background: #FFFFFF;
         border: 4px solid #0E0E0E;
@@ -1150,9 +1280,9 @@ footer {
         height: auto !important;
     }
     .floating {
-        right: -13px !important;
-        width: 146% !important;
-        top: 36px !important;
+        right: -37px !important;
+        width: 158% !important;
+        top: 25px !important;
     }
     .bordM {
         box-shadow: none !important;
@@ -1230,9 +1360,9 @@ footer {
         position: absolute;
         right: -10px;
         width: 50%;
-        height: 97%;
+        height: 96.5%;
         z-index: 99;
-        top: 16px;
+        top: 18px;
     }
     .dropdown-menu.p_back.show {
         margin-left: -28px !important;
@@ -1261,6 +1391,16 @@ footer {
     }
     .home .container {
         max-width: 100%;
+    }
+    element.style {
+        justify-self: end;
+        margin-left: auto;
+    }
+    .gap-2 {
+        gap: 0.5rem!important;
+    }
+    .navbar-nav {
+        margin-bottom: -6px !important;
     }
     .navbar-brand img {
         width: 56.98px !important;
@@ -1352,6 +1492,7 @@ footer {
     }
     .error {
         background-size: contain;
+        height: 500px;
     }
     .box {
         width: 40%;
@@ -1370,7 +1511,7 @@ footer {
         background-size: auto auto;
     }
     .sideCard {
-        width: 180% !important;
+        width: 160% !important;
         margin-left: -170px;
     }
     .sc {
@@ -1486,6 +1627,7 @@ footer {
     }
     .error {
         background-size: contain;
+        height: 540px;
     }
     .box {
         width: 40%;
@@ -1504,7 +1646,7 @@ footer {
         background-size: auto auto;
     }
     .sideCard {
-        width: 170% !important;
+        width: 150% !important;
         margin-left: -150px;
     }
     .sc {
@@ -1629,6 +1771,7 @@ footer {
     }
     .error {
         background-size: contain;
+        height: 600px;
     }
     .box {
         width: 40%;
@@ -1646,7 +1789,7 @@ footer {
         background-size: auto 51%;
     }
     .sideCard {
-        width: 152% !important;
+        width: 140% !important;
         margin-left: -130px;
     }
     .sc {
@@ -1760,7 +1903,7 @@ footer {
         margin-left: 115px !important;
     }
     .back::after {
-        background-position-x: -385px;
+        background-position-x: -316px;
     }
     .store .c2 {
         max-width: 90%;
@@ -1771,6 +1914,7 @@ footer {
     }
     .error {
         background-size: contain;
+        height: 620px;
     }
     .box {
         width: 40%;
@@ -1788,7 +1932,7 @@ footer {
         background-size: auto 51%;
     }
     .sideCard {
-        width: 150% !important;
+        width: 140% !important;
         margin-left: -130px;
     }
     .sc {
@@ -1814,10 +1958,13 @@ footer {
         background-position-x: right;
     }
     .conCard {
-        background-position-x: -163px;
+        background-position-x: -109px;
         background-repeat: no-repeat;
-        background-position-y: -20px;
+        background-position-y: 116px;
         background-size: 118% auto;
+    }
+    .mymc {
+        width: 62% !important;
     }
     .home .con.c1 {
         max-width: 70%;
@@ -1830,7 +1977,7 @@ footer {
         height: 750px;
     }
     .oh .form_box {
-        width: 78%;
+        width: 72%;
         margin-left: -56px !important;
     }
     .con2 {
@@ -1838,8 +1985,9 @@ footer {
     }
     .back.order_b::after {
         background-image: url(../media/background/order_h.png);
-        background-position-y: 0px;
+        background-position-y: 12px;
         background-size: 140% auto;
+        background-position-x: -300px;
     }
     .log_b {
         background-position-y: 80px !important;
@@ -1850,7 +1998,8 @@ footer {
     }
     .pro {
         background-position-x: -320px !important;
-        background-size: 150% auto !important;
+        /* background-size: 150% auto !important; */
+        background-size: 1920px auto !important;
     }
     .floating {
         width: 60% !important;
@@ -1870,11 +2019,14 @@ footer {
     }
     .homeBack2 .c1 {
         height: auto;
-        margin-bottom: 50px !important
+        margin-bottom: 0px !important;
+        margin-top: 100px !important;
     }
     .homeBack2 .box2 {
         margin-right: -120px;
         width: 55% !important;
+        margin-bottom: 144px;
+        margin-top: -157px !important;
     }
     .homeBack.homeb2 .c1 {
         height: 590px !important;
@@ -1897,18 +2049,121 @@ footer {
     .log .c1 {
         height: 650px;
     }
+    .odBox {
+        margin-left: 274px !important;
+    }
+    .acc .form_box {
+        width: 62%;
+        margin-left: 122px !important;
+    }
+    .col-xxl-5.box2.col-xl-6.col-lg-7.mt-4.bord22.p-4 {
+        margin-bottom: 179px;
+        margin-top: -20px;
+    }
+    .imgHide.homeBack2.px-4.px-lg-0 {
+        background-position-y: 149px !important;
+    }
+    .abbb .mbb1.col-xxl-5.box2.col-xl-6.col-lg-7.mt-4.bord22.p-4 {
+        margin-top: 23px !important;
+        margin-left: -142px !important;
+        margin-bottom: 62px !important;
+    }
+    .ab2w.homeBack2 .box2 {
+        margin-right: -9px;
+        width: 43% !important;
+        margin-bottom: 120px !important;
+        margin-top: -46px !important;
+    }
+    .ab2w.homeBack2 .c1 {
+        margin-top: 50px !important;
+    }
+    .abbb .imgHide.imm.homeBack2.px-4.px-lg-0 {
+        background-position-y: 10px !important;
+    }
+    .myhead {
+        margin-top: -35px !important;
+    }
+    .acc .col-xxl-10.col-lg-12.px-lg-5.row.pb-lg-5.justify-content-center.position-relative.gap-4 {
+        margin-left: 109px !important;
+    }
+    .acc .back::after {
+        background-position-x: -354px;
+    }
+    .fsmm27 {
+        font-size: 27px;
+    }
+    .fsmm12 {
+        font-size: 12px;
+    }
+    .homeb2 .mybox2s {
+        width: 41%;
+        margin-top: -30px !important;
+        margin-left: 62px !important;
+    }
+    .homeBack.homb2ww {
+        background-size: 100% auto !important;
+    }
+    .homeBack.homb2ww .c1 {
+        height: 478px !important;
+    }
+    .hombb22 .box2 {
+        margin-bottom: 153px;
+        margin-top: -62px !important;
+        margin-right: -8px;
+        width: 43% !important;
+    }
+    .oneOne.homeBack2 .box2 {
+        margin-right: -120px;
+        width: 47% !important;
+        margin-bottom: 120px !important;
+        margin-top: -33px !important;
+    }
+    .oneOne.homeBack2 .c1 {
+        margin-top: 50px !important;
+    }
+    .fsmm40 {
+        font-size: 40px;
+    }
+    .ab2w.homeBack2 .c1 {
+        height: 500px;
+    }
+    .odBox .form_box2 {
+        width: 22% !important;
+    }
 }
 
 
 /* Screen 110% */
 
 @media (max-width: 1500px) and (min-width: 1400px) {
+    .fsmm27 {
+        font-size: 27px;
+    }
+    .fsmm12 {
+        font-size: 12px;
+    }
+    .fsmm40 {
+        font-size: 40px;
+    }
+    .abbb .imgHide.imm.homeBack2.px-4.px-lg-0 {
+        background-position-y: 22px !important;
+    }
     .form_box {
         width: 74%;
         margin-left: 73px !important;
     }
+    .acc .form_box {
+        width: 68%;
+    }
+    .acc .form_box2 {
+        width: 22% !important;
+    }
+    .acc .back::after {
+        background-position-x: -247px;
+    }
     .back::after {
-        background-position-x: -340px;
+        background-position-x: -227px;
+        /* background-position-x: -340px; */
     }
     .store .c2 {
         max-width: 90%;
@@ -1919,6 +2174,7 @@ footer {
     }
     .error {
         background-size: contain;
+        height: 690px;
     }
     .box {
         width: 40%;
@@ -1936,7 +2192,7 @@ footer {
         background-size: auto 55%;
     }
     .sideCard {
-        width: 130% !important;
+        width: 125% !important;
         margin-left: -90px;
     }
     .sc {
@@ -1983,8 +2239,8 @@ footer {
     .conCard {
         background-position-x: center;
         background-repeat: no-repeat;
-        background-position-y: -20px;
-        background-size: 105% auto;
+        background-position-y: 77px;
+        background-size: 115% auto;
     }
     .home .con.c1 {
         max-width: 95%;
@@ -2009,21 +2265,24 @@ footer {
         background-position-y: 7px;
     }
     .log_b {
-        background-position-y: 80px !important;
-        background-size: 110% auto !important;
+        background-position-y: 72px !important;
+        background-size: 109% auto !important;
     }
     .mybox {
         width: 48% !important;
     }
     .pro {
-        background-position-x: -255px !important;
-        background-size: 136% auto !important;
+        /* background-position-x: -255px !important;
+        background-size: 136% auto !important; */
+        background-position-x: -247px !important;
+        /* background-size: 133% auto !important; */
+        background-size: 1920px auto !important;
     }
     .floating {
-        width: 60% !important;
+        width: 70% !important;
     }
     .homeBack {
-        background-size: 85% auto !important;
+        background-size: 1402px auto !important;
     }
     .homeBack .c1 {
         max-width: 95%;
@@ -2035,11 +2294,13 @@ footer {
     .homeBack2 .c1 {
         max-width: 80%;
         height: auto;
-        margin-bottom: 50px !important
+        margin-bottom: 0px !important
     }
     .homeBack2 .box2 {
         margin-right: -100px;
         width: 50% !important;
+        margin-bottom: 100px;
+        margin-top: -118px !important;
     }
     .homeBack.homeb2 .c1 {
         height: 650px !important;
@@ -2047,6 +2308,11 @@ footer {
     .homeb2 .mybox2 {
         width: 45%;
         margin-top: -40px !important;
+    }
+    .homeb2 .mybox2s {
+        width: 35%;
+        margin-top: -21px !important;
+        margin-left: 70px !important;
     }
     .head {
         width: 100% !important;
@@ -2068,12 +2334,86 @@ footer {
     .log .c1 {
         height: 729px;
     }
+    .col-xxl-10.col-lg-12.px-lg-5.row.pb-lg-5.justify-content-center.position-relative.gap-4 {
+        margin-left: 100px;
+    }
+    .acc .col-xxl-10.col-lg-12.px-lg-5.row.pb-lg-5.justify-content-center.position-relative.gap-4 {
+        margin-left: 185px !important;
+    }
+    .row.justify-content-center.gap-5.px-4 {
+        padding-top: 24px;
+    }
+    .abbb .col-xxl-5.box2.col-xl-6.col-lg-7.mt-4.bord22.p-4 {
+        margin-bottom: 179px;
+        margin-top: -20px !important;
+    }
+    .abbb .imgHide.homeBack2.px-4.px-lg-0 {
+        background-position-y: 92px !important;
+    }
+    .abbb .mbb1.col-xxl-5.box2.col-xl-6.col-lg-7.mt-4.bord22.p-4 {
+        margin-top: 32px !important;
+        margin-left: -70px !important;
+        margin-bottom: 100px !important;
+    }
+    /* .one .homeBack2 {
+        background-position-y: 103px !important;
+    } */
+    .ab2w.homeBack2 .box2 {
+        margin-right: -9px;
+        width: 36% !important;
+        margin-bottom: 140px !important;
+    }
+    .homeBack2 .box2.mbbb2 {
+        margin-right: -100px;
+        width: 50% !important;
+        margin-bottom: 176px;
+        margin-top: -43px !important;
+    }
+    .myhead {
+        margin-top: -35px !important;
+    }
+    .odBox {
+        margin-left: 203px;
+    }
+    .hombb22 .box2 {
+        margin-right: 28px;
+        width: 40% !important;
+        margin-bottom: 168px;
+        margin-top: -7px !important;
+    }
+    .homeBack.homb2ww .c1 {
+        height: 584px !important;
+    }
+    .oneOne.homeBack2 .box2 {
+        margin-right: -20px;
+        width: 40% !important;
+        margin-bottom: 153px !important;
+        margin-top: -12px !important;
+    }
+    .oneOne.homeBack2 .c1 {
+        margin-top: 50px !important;
+    }
+    .ab2w.homeBack2 .c1 {
+        height: 530px;
+    }
 }
 
 
 /* Screen 100% */
 
 @media (max-width: 1600px) and (min-width: 1500px) {
+    .fsmm27 {
+        font-size: 27px;
+    }
+    .fsmm12 {
+        font-size: 12px;
+    }
+    .myhead {
+        margin-top: -35px !important;
+    }
+    .abbb .col-xxl-5.box2.col-xl-6.col-lg-7.mt-4.bord22.p-4 {
+        margin-bottom: 128px;
+    }
     .fs48.text-center.text-capitalize.fsm29.mt-2.ms-3 {
         margin-top: 30px !important;
     }
@@ -2089,6 +2429,7 @@ footer {
     }
     .error {
         background-size: contain;
+        height: 750px;
     }
     .box {
         margin-top: 140px;
@@ -2101,7 +2442,7 @@ footer {
         background-size: auto 55%;
     }
     .sideCard {
-        width: 130% !important;
+        width: 125% !important;
         margin-left: -100px;
     }
     .sc {
@@ -2144,7 +2485,7 @@ footer {
     .conCard {
         background-position-x: center;
         background-repeat: no-repeat;
-        background-position-y: -50px;
+        background-position-y: 92px;
         background-size: 105% auto;
     }
     .home .con.c1 {
@@ -2172,8 +2513,9 @@ footer {
         width: 47% !important;
     }
     .pro {
-        background-position-x: -210px !important;
-        background-size: 127% auto !important;
+        background-position-y: 100px !important;
+        background-position-x: -200px !important;
+        /* background-size: 127% auto !important; */
     }
     .floating {
         width: 60% !important;
@@ -2191,7 +2533,7 @@ footer {
     .homeBack2 .c1 {
         max-width: 80%;
         height: auto;
-        margin-bottom: 50px !important
+        margin-bottom: 0px !important
     }
     .homeBack2 .box2 {
         width: 45% !important;
@@ -2223,12 +2565,56 @@ footer {
     .log .c1 {
         height: 729px;
     }
+    /* .one .homeBack2 {
+        background-position-y: 103px !important;
+    } */
+    .homeBack2 .box2.mbbb2 {
+        margin-right: -100px;
+        width: 50% !important;
+        margin-bottom: 176px;
+        margin-top: -43px !important;
+    }
+    .odBox {
+        margin-left: 100px;
+    }
+    .back.order_b::after {
+        background-position-x: -196px;
+    }
+    .homeBack2.hombb22 .c1 {
+        height: 645px !important;
+    }
+    .hombb22 .box2 {
+        margin-right: 28px;
+        width: 40% !important;
+        margin-bottom: 168px;
+        margin-top: 20px !important;
+    }
+    .homeBack.homb2ww .c1 {
+        height: 552px !important;
+    }
+    .oneOne.homeBack2 .box2 {
+        margin-right: 23px;
+        width: 38% !important;
+        margin-bottom: 151px !important;
+        margin-top: 59px !important;
+    }
+    .oneOne.homeBack2 .c1 {
+        margin-top: 50px !important;
+    }
+    .ab2w.homeBack2 .c1 {
+        height: 590px;
+    }
 }
 
 
 /* Screen 90% */
 
 @media (max-width: 1750px) and (min-width: 1600px) {
+    .abbb .mbb1.col-xxl-5.box2.col-xl-6.col-lg-7.mt-4.bord22.p-4 {
+        margin-top: 72px !important;
+        margin-left: -70px !important;
+        margin-bottom: 100px !important;
+    }
     .form_box {
         width: 56%;
         margin-left: 242px !important;
@@ -2238,6 +2624,7 @@ footer {
     }
     .error {
         background-size: contain;
+        height: 840px;
     }
     .box {
         margin-top: 185px;
@@ -2246,7 +2633,7 @@ footer {
         width: 100%;
     }
     .sideCard {
-        width: 120% !important;
+        width: 114% !important;
         margin-left: -70px;
     }
     .termsB .container {
@@ -2280,7 +2667,7 @@ footer {
     .conCard {
         background-position-x: center;
         background-repeat: no-repeat;
-        background-position-y: -90px;
+        background-position-y: 45px;
         background-size: contain;
     }
     .home .con.c1 {
@@ -2299,8 +2686,8 @@ footer {
         width: 50% !important;
     }
     .pro {
-        background-position-x: -57px !important;
-        background-size: 105% auto !important;
+        background-position-x: -120px !important;
+        /* background-size: 105% auto !important; */
     }
     .floating {
         width: 60% !important;
@@ -2318,7 +2705,10 @@ footer {
     .homeBack2 .c1 {
         max-width: 80%;
         height: 650px;
-        margin-bottom: 100px !important;
+        margin-bottom: 0px !important;
+    }
+    .homeBack2 .myc2 {
+        height: auto !important;
     }
     .pros {
         max-width: 90% !important;
@@ -2343,6 +2733,18 @@ footer {
     }
     .log .c1 {
         height: 729px;
+    }
+    .abbb .col-xxl-5.box2.col-xl-6.col-lg-7.mt-4.bord22.p-4 {
+        margin-top: -3px !important;
+    }
+    .myhead {
+        margin-top: -35px !important;
+    }
+    .homeBack.homb2ww .c1 {
+        height: 619px;
+    }
+    .ab2w.homeBack2 .c1 {
+        height: 650px;
     }
 }
 
@@ -2411,7 +2813,7 @@ footer {
     }
     .pro {
         /* background-position-x: -50px; */
-        background-position-y: 100px !important;
-        background-size: 1850px auto !important;
+        /* background-position-y: 100px !important; */
+        background-size: 1920px auto !important;
     }
 }
